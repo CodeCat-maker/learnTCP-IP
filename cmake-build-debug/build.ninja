@@ -64,35 +64,35 @@ build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
 build edit_cache: phony CMakeFiles/edit_cache.util
 
 # =============================================================================
-# Object build statements for EXECUTABLE target TCP_IP
+# Object build statements for EXECUTABLE target test
 
 
 #############################################
-# Order-only phony target for TCP_IP
+# Order-only phony target for test
 
-build cmake_object_order_depends_target_TCP_IP: phony || CMakeFiles/TCP_IP.dir
+build cmake_object_order_depends_target_test: phony || CMakeFiles/test.dir
 
-build CMakeFiles/TCP_IP.dir/第一章/1.1helloworld.cpp.o: CXX_COMPILER__TCP_IP_Debug /Users/wangzepeng/代码/c$:c++/TCP$:IP网络编程/第一章/1.1helloworld.cpp || cmake_object_order_depends_target_TCP_IP
-  DEP_FILE = CMakeFiles/TCP_IP.dir/第一章/1.1helloworld.cpp.o.d
+build CMakeFiles/test.dir/第一章/fd_seri.cpp.o: CXX_COMPILER__test_Debug /Users/wangzepeng/代码/c$:c++/TCP$:IP网络编程/第一章/fd_seri.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles/test.dir/第一章/fd_seri.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++17
-  OBJECT_DIR = CMakeFiles/TCP_IP.dir
-  OBJECT_FILE_DIR = CMakeFiles/TCP_IP.dir/第一章
+  OBJECT_DIR = CMakeFiles/test.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.dir/第一章
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target TCP_IP
+# Link build statements for EXECUTABLE target test
 
 
 #############################################
-# Link the executable TCP_IP
+# Link the executable test
 
-build TCP_IP: CXX_EXECUTABLE_LINKER__TCP_IP_Debug CMakeFiles/TCP_IP.dir/第一章/1.1helloworld.cpp.o
+build test: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/第一章/fd_seri.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
-  OBJECT_DIR = CMakeFiles/TCP_IP.dir
+  OBJECT_DIR = CMakeFiles/test.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = TCP_IP
-  TARGET_PDB = TCP_IP.dbg
+  TARGET_FILE = test
+  TARGET_PDB = test.dbg
 
 # =============================================================================
 # Target aliases.
@@ -105,7 +105,7 @@ build TCP_IP: CXX_EXECUTABLE_LINKER__TCP_IP_Debug CMakeFiles/TCP_IP.dir/第一�
 #############################################
 # Folder: /Users/wangzepeng/代码/c:c++/TCP:IP网络编程/cmake-build-debug
 
-build all: phony TCP_IP
+build all: phony test
 
 # =============================================================================
 # Built-in targets

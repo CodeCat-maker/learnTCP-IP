@@ -3,5 +3,6 @@ project(TCP_IP)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(TCP_IP 第一章/1.1helloworld.cpp)
+#add_executable(TCP_IP 第一章/1.1helloworld.cpp 第一章/low_open.cpp)
 
+add_executable(test 第一章/fd_seri.cpp 第一章/fd_seri.cpp)
