@@ -9,7 +9,9 @@ void error_handling(char *message);
 
 int main(int argc, char* argv[])
 {
+
 	int sock;
+    //定义socket
 	struct sockaddr_in serv_addr;
 	char message[30];
 	int str_len;
