@@ -138,6 +138,18 @@ build CMakeFiles/test.dir/第十一章/task.cpp.o: CXX_COMPILER__test_Debug /Use
   OBJECT_DIR = CMakeFiles/test.dir
   OBJECT_FILE_DIR = CMakeFiles/test.dir/第十一章
 
+build CMakeFiles/test.dir/第十二章/select.cpp.o: CXX_COMPILER__test_Debug /Users/wangzepeng/代码/c$:c++/TCP$:IP网络编程/第十二章/select.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles/test.dir/第十二章/select.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.dir/第十二章
+
+build CMakeFiles/test.dir/第十二章/echo_selectserv.cpp.o: CXX_COMPILER__test_Debug /Users/wangzepeng/代码/c$:c++/TCP$:IP网络编程/第十二章/echo_selectserv.cpp || cmake_object_order_depends_target_test
+  DEP_FILE = CMakeFiles/test.dir/第十二章/echo_selectserv.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++17
+  OBJECT_DIR = CMakeFiles/test.dir
+  OBJECT_FILE_DIR = CMakeFiles/test.dir/第十二章
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target test
@@ -146,7 +158,7 @@ build CMakeFiles/test.dir/第十一章/task.cpp.o: CXX_COMPILER__test_Debug /Use
 #############################################
 # Link the executable test
 
-build test: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/第一章/fd_seri.cpp.o CMakeFiles/test.dir/第三章/inet_addr.cpp.o CMakeFiles/test.dir/第四章/echo_server.cpp.o CMakeFiles/test.dir/第四章/echo_client.cpp.o CMakeFiles/test.dir/第五章/op_client.cpp.o CMakeFiles/test.dir/第八章/gethostbyname.cpp.o CMakeFiles/test.dir/第十章/fork.cpp.o CMakeFiles/test.dir/第十章/wait.cpp.o CMakeFiles/test.dir/第十章/sigaction.cpp.o CMakeFiles/test.dir/第十章/echo_mpserv.cpp.o CMakeFiles/test.dir/第十一章/task.cpp.o
+build test: CXX_EXECUTABLE_LINKER__test_Debug CMakeFiles/test.dir/第一章/fd_seri.cpp.o CMakeFiles/test.dir/第三章/inet_addr.cpp.o CMakeFiles/test.dir/第四章/echo_server.cpp.o CMakeFiles/test.dir/第四章/echo_client.cpp.o CMakeFiles/test.dir/第五章/op_client.cpp.o CMakeFiles/test.dir/第八章/gethostbyname.cpp.o CMakeFiles/test.dir/第十章/fork.cpp.o CMakeFiles/test.dir/第十章/wait.cpp.o CMakeFiles/test.dir/第十章/sigaction.cpp.o CMakeFiles/test.dir/第十章/echo_mpserv.cpp.o CMakeFiles/test.dir/第十一章/task.cpp.o CMakeFiles/test.dir/第十二章/select.cpp.o CMakeFiles/test.dir/第十二章/echo_selectserv.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/test.dir
   POST_BUILD = :
